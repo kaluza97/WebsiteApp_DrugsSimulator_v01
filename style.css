@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background-image: url("wallpaper.jpg");
+  background-size: cover;
+  overflow: hidden;
+  transition: 5s;
+}
+
+
+img {
+  position: fixed;
+  left: 30%;
+  top: 40%;
+  height: 65%;
+  opacity: 0;
+  transition: 5s;
+}
+
+img.active {
+  opacity: 1;
+  position: fixed;
+  left: 28%;
+  top: 40%;
+  transition: 5s;
+}
+
+i {
+  font-size: 50px;
+  position: fixed;
+  top: 15px;
+  right: 50px;
+  cursor: pointer;
+}
+
+
+.menu {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 0vw;
+  height: 90%;
+  background-color: rgba(221, 1, 1, 0.9);
+  transition: 1s;
+}
+
+
+.menu_div_alcohol {
+  position: relative;
+  width: 100%;
+  height: 150px;
+  background-color: red;
+}
+
+.menu_div_ganja {
+  position: relative;
+  width: 100%;
+  height: 150px;
+  background-color: green;
+}
+
+.menu_div_lsd {
+  position: relative;
+  width: 100%;
+  height: 150px;
+  background-color: orange;
+}
+
+.menu_div_alcohol:hover {
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.menu_div_ganja:hover {
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.menu_div_lsd:hover {
+  background-color: transparent;
+  cursor: pointer;
+}
+
+/* Tutaj styluje wszystkie img w kwadracikach w menu */
+.menu_div_img {
+  opacity: 1;
+  position: relative;
+  height: 70%;
+  top: 10%;
+  left: 10%;
+}
